@@ -7,6 +7,7 @@
     width: 90vw;
     
     margin: 0 auto;
+    gap:7px;
 }
 
 img {
@@ -18,11 +19,58 @@ img {
 #tools-image-container {
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
-
-    position: relative;
 }
 
-#floating-text {
+#brandstatement-and-infobutton{
+    margin: 0 auto;
+    padding-top: 4%;
+    width: 50%;
+    height: 55%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    gap: 15px;
+}
+
+#brandstatement-title {
+    color: #ffffff;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 2rem;
+    font-size: x-large;
+
+    padding-bottom: 30px;
+
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+
+#brandstatement-text {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+#brandstatement-info-button {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+
+    margin: 0 auto;
+
+    width: 150px;
+    height: 3rem;
+
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(225, 225, 225, 0.221);
+}
+
+/* #floating-text {
     padding-left: 25vw;
     padding-top: 15vw;
 
@@ -38,9 +86,9 @@ img {
     align-items: center;
 
     gap: 125px;
-}
+} */
 
-#brand-statement p {
+/* #brand-statement p {
     font-family: 'Radio Canada', sans-serif;
     font-weight: bold;
     font-style: italic;
@@ -48,9 +96,9 @@ img {
 
     line-height: 2rem;
     font-size: xx-large;
-}
+} */
 
-#link-to-about-button {
+/* #link-to-about-button {
     padding: 15px 35px 15px 35px;
 
     font-family: 'Radio Canada', sans-serif;
@@ -62,14 +110,23 @@ img {
 
     border: 1px, solid, white;
     border-radius: 4px;
-}
+} */
 
 #purse-with-lady-on-couch-container {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
+
+
 }
 
 #purse-at-wedding-ad-container {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
+}
+
+#purse-at-wedding-ad-image, #purse-with-lady-on-couch-image {
+    border-radius: 2px;
+    border: 1px solid black;
+
+    height: 100%;
 }
