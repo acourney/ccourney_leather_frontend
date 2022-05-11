@@ -46,3 +46,21 @@ a {
 
     font-family: 'Radio Canada', sans-serif;
 }
+
+.smallscreen-nav-bar {
+    display: flex;
+    flex-direction: row;
+
+    align-items: baseline;
+    justify-content: space-between;
+
+    width: 90vw;
+    padding-left: 5vw;
+    margin-top: 5vw;
+}
+
+#small-screen-nav-categories {
+    display: flex;
+    flex-direction: column;
+}
+
