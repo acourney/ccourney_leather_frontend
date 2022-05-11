@@ -1,0 +1,75 @@
+.homepage {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;  
+    
+    width: 90vw;
+    
+    margin: 0 auto;
+}
+
+img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+
+#tools-image-container {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+
+    position: relative;
+}
+
+#floating-text {
+    padding-left: 25vw;
+    padding-top: 15vw;
+
+    position: absolute;
+    
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+
+    z-index: 10;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 125px;
+}
+
+#brand-statement p {
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+
+    line-height: 2rem;
+    font-size: xx-large;
+}
+
+#link-to-about-button {
+    padding: 15px 35px 15px 35px;
+
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+
+    color: white;
+    background-color: rgba(225,225,225,.4);
+
+    border: 1px, solid, white;
+    border-radius: 4px;
+}
+
+#purse-with-lady-on-couch-container {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+#purse-at-wedding-ad-container {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
