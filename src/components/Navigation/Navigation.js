@@ -36,9 +36,9 @@ function Navigation(props) {
             <p>Welcome, User</p>
           </div>
           <div id="category-links">
-            <Link to="/">V i e w A l l</Link>
-            <Link to="/">P u r s e s</Link>
-            <Link to="/">W a l l e t s</Link>
+            <Link to="/all">V i e w A l l</Link>
+            <Link to="/purses">P u r s e s</Link>
+            <Link to="/wallets">W a l l e t s</Link>
             <Link to="/">B e l t s</Link>
             <Link to="/">L u g g a g e</Link>
             <Link to="/">S m a l l I t e m s</Link>
@@ -66,9 +66,9 @@ function Navigation(props) {
               Welcome, User
             </Offcanvas.Header>
             <Offcanvas.Body id="small-screen-nav-categories">
-              <Link to="/">V i e w A l l</Link>
-              <Link to="/">P u r s e s</Link>
-              <Link to="/">W a l l e t s</Link>
+              <Link to="/all">V i e w A l l</Link>
+              <Link to="/purses">P u r s e s</Link>
+              <Link to="/wallets">W a l l e t s</Link>
               <Link to="/">B e l t s</Link>
               <Link to="/">L u g g a g e</Link>
               <Link to="/">S m a l l I t e m s</Link>
